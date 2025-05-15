@@ -5,7 +5,7 @@
 
 - 🌱 I’m currently learning **Java**
 
-- 👨‍💻 All of my projects are available at [https://github.com/mashumelo/mashumelo](https://github.com/mashumelo/mashumelo)
+- 👨‍💻 All of my projects are available at [https://github.com/mashumelo/mashumelo](https://github.com/mortyewary/mortyewary)
 
 - 💬 Ask me about **python, md, and Linux Distros*
 
