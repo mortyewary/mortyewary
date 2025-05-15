@@ -1,5 +1,5 @@
-<h1 align="center">Hi 👋, I'm Mashumelo</h1>
-<h3 align="center">A passionate Windows/Linux user, and aspiring software developer</h3>
+<h1 align="center">Hi 👋, I'm Mort Yewary!</h1>
+<h3 align="center">A passionate Linux user, and aspiring software developer</h3>
 
 - 🔭 I’m currently working on [**pendragon**](https://github.com/mashumelo/mashumelo/tree/main/java-portfolio/pendragon) my Discord bot
 
@@ -7,11 +7,11 @@
 
 - 👨‍💻 All of my projects are available at [https://github.com/mashumelo/mashumelo](https://github.com/mashumelo/mashumelo)
 
-- 💬 Ask me about **python, md, and Powershell**
+- 💬 Ask me about **python, md, and Linux Distros*
 
 - 📫 How to reach me **waylondn@proton.me**
 
-- ⚡ Fun fact **I am a heavy user of the CLI whether it's Windows Terminal or Linux Terminal through Powershell**
+- ⚡ Fun fact **I am a heavy user of the CLI*
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
