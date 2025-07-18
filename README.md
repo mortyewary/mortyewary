@@ -1,5 +1,5 @@
 <h1 align="center">Hi 👋, I'm Mort Yewary!</h1>
-<h3 align="center">A passionate Linux user, and aspiring software developer</h3>
+<h3 align="center">A passionate Windows/Linux user, and aspiring software developer</h3>
 
 - 🔭 I’m currently working on [**pendragon**](https://github.com/mashumelo/mashumelo/tree/main/java-portfolio/pendragon) my Discord bot
 
@@ -7,7 +7,7 @@
 
 - 👨‍💻 All of my projects are available at [https://github.com/mortyewary/mortyewary](https://github.com/mortyewary/mortyewary)
 
-- 💬 Ask me about **python, md, and Linux Distros*
+- 💬 Ask me about **python, md, powershell, windows management and Linux Distros*
 
 - 📫 How to reach me **waylondn@proton.me**
 
