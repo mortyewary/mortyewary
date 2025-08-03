@@ -14,7 +14,7 @@
     Disk:
     System Information:
 .LINK
-    https://github.com/mashumelo/mashumelo
+    https://github.com/mortyewary/mortyewary
 .NOTES
     Author: Waylon Neal
 #>

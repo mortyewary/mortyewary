@@ -7,7 +7,7 @@
     PS> .\cleanup.ps1
     Cleanup temporary files
 .LINK
-    https://github.com/mashumelo/mashumelo
+    https://github.com/mortyewary/mortyewary
 .NOTES
     Author: Waylon Neal
 #>

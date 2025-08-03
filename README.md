@@ -7,7 +7,7 @@
 
 - 👨‍💻 All of my projects are available at [https://github.com/mortyewary/mortyewary](https://github.com/mortyewary/mortyewary)
 
-- 💬 Ask me about **python, md, powershell, windows management and Linux Distros*
+- 💬 Ask me about **python, md, powershell, Windows management and Linux distros*
 
 - 📫 How to reach me **waylondn@proton.me**
 

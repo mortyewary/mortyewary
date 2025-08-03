@@ -9,7 +9,7 @@
     PS> .\git-clone.ps1
     Git repository successfully cloned!
 .LINK
-    https://github.com/mashumelo/mashumelo
+    https://github.com/mortyewary/mortyewary
 .NOTES
     Author: Waylon Neal
 #>

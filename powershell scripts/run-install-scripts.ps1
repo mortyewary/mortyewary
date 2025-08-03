@@ -30,13 +30,13 @@ else {
 }
 
 # Construct the full paths to the scripts based on the main folder path
-$chocoScriptPath = Join-Path $mainFolderPath "choco-installs.ps1"
+$scoopScriptPath = Join-Path $mainFolderPath "scoop-installs.ps1"
 $gitConfigScriptPath = Join-Path $mainFolderPath "git-configurations.ps1"
 $gitCloneScriptPath = Join-Path $mainFolderPath "git-clone.ps1"
 
 try {
-    # Run choco-install.ps1
-    & $chocoScriptPath
+    # Run scoop-install.ps1
+    & $scoopScriptPath
 
     # Run git-configurations.ps1
     & $gitConfigScriptPath

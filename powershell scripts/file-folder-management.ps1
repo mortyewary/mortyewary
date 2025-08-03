@@ -9,7 +9,7 @@
     PS> .\file-folder-management.ps1
     File/Folder Management
 .LINK
-    https://github.com/mashumelo/mashumelo
+    https://github.com/mortyewary/mortyewary
 .NOTES
     Author: Waylon Neal
 #>

@@ -7,7 +7,7 @@
     PS> .\Microsoft.PowerShell_profile.ps1
     PowerShell Profile
 .LINK
-    https://github.com/mashumelo/mashumelo
+    https://github.com/mortyewary/mortyewary
 .NOTES
     Author: Waylon Neal
 #>

@@ -11,7 +11,7 @@
     PS> .\software-installer.ps1
     Install software
 .LINK
-    https://github.com/mashumelo/mashumelo
+    https://github.com/mortyewary/mortyewary
 .NOTES
     Author: Waylon Neal
 #>

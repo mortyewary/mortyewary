@@ -19,7 +19,7 @@
     List current configurations
     Notify you've set your username and email
 .LINK
-    https://github.com/mashumelo/mashumelo
+    https://github.com/mortyewary/mortyewary
 .NOTES
     Author: Waylon Neal
 #>

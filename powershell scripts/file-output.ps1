@@ -10,7 +10,7 @@
     PS> .\file-output.ps1
     File Output
 .LINK
-    https://github.com/mashumelo/mashumelo
+    https://github.com/mortyewary/mortyewary
 .NOTES
     Author: Waylon Neal
 #>

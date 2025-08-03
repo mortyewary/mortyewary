@@ -7,7 +7,7 @@
     PS> .\profile-module.psm1
     PowerShell modules for PowerShell Profile
 .LINK
-    https://github.com/mashumelo/mashumelo
+    https://github.com/mortyewary/mortyewary
 .NOTES
     Author: Waylon Neal
 #>
