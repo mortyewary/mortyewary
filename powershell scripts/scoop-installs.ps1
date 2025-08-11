@@ -2,16 +2,10 @@
 .SYNOPSIS
     Scoop installs
 .DESCRIPTION
-    This PowerShell script installs Scoop and packages
-.PARAMETER scoopPackages
-    Specifies the list of Scoop packages to install
+    This PowerShell script installs Scoop, adds useful buckets, and installs a curated list of packages.
 .EXAMPLE
     PS> .\scoop-installs.ps1
-    Install Scoop
-    Set Scoop flag for errors
-    Install Scoop packages
-    Upgrade Scoop packages
-    Notify you've installed Scoop and packages
+    Installs Scoop, sets up buckets, installs packages, and upgrades them.
 .LINK
     https://github.com/mortyewary/mortyewary
 .NOTES
@@ -25,12 +19,20 @@ if (-not (Get-Command scoop -ErrorAction SilentlyContinue)) {
     Write-Host "📦 Scoop not found. Installing Scoop..."
     Set-ExecutionPolicy RemoteSigned -Scope CurrentUser -Force
     Invoke-Expression (Invoke-RestMethod 'https://get.scoop.sh')
+
+    # Install Git (required for buckets)
+    Write-Host "🔧 Installing Git..."
+    scoop install git
+
+    # Install aria2 (for faster downloads)
+    Write-Host "🚀 Installing aria2 for accelerated downloads..."
+    scoop install aria2
 } else {
     Write-Host "✅ Scoop is already installed."
 }
 
 # Add useful buckets
-$scoopBuckets = @("extras", "versions", "nerd-fonts", "java")
+$scoopBuckets = @("extras", "versions", "nerd-fonts", "java", "games")
 foreach ($bucket in $scoopBuckets) {
     if (-not (scoop bucket list | Select-String $bucket)) {
         Write-Host "➕ Adding bucket: $bucket"
@@ -55,7 +57,13 @@ $scoopApps = @(
     "sysinternals", "processhacker", "concfg", "oh-my-posh",
 
     # Fonts
-    "nerd-fonts", "cascadia-code"
+    "nerd-fonts", "cascadia-code",
+
+    # Games & media
+    "vesktop", "musikcube", "goggalaxy",
+
+    # Browsers
+    "brave"
 )
 
 # Install each package
@@ -64,4 +72,10 @@ foreach ($app in $scoopApps) {
     scoop install $app
 }
 
+# Upgrade all installed packages
+Write-Host "`n🔄 Upgrading all Scoop packages..."
+scoop update *
+scoop status
+
 Write-Host "`n✅ Scoop setup complete!" -ForegroundColor Green
+Write-Host "You can now use Scoop to manage your software installations easily." -ForegroundColor Green
