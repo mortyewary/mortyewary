@@ -3,14 +3,18 @@
 # Reload whkd configuration
 # alt + o                 : taskkill /f /im whkd.exe && start /b whkd # if shell is cmd
 alt + o                 : taskkill /f /im whkd.exe; Start-Process whkd -WindowStyle hidden # if shell is pwsh / powershell
-alt + shift + o         : komorebic reload-configuration
+alt + shift + o         : komorebic reload-configuration\
+
+# Restart Komorebi
+alt + shift + r : komorebic stop --bar --whkd; komorebic start --bar --whkd;
 
 # App shortcuts - these require shell to be pwsh / powershell
 # The apps will be focused if open, or launched if not open
-alt + f                 : if ($wshell.AppActivate('Firefox') -eq $False) { start firefox }
-alt + s                 : if ($wshell.AppActivate('Spotify') -eq $False) { start "$env:USERPROFILE\AppData\Roaming\Spotify\Spotify.exe" }
-alt + m                 : if ($wshell.AppActivate('Musikcube') -eq $False) { start C:\ProgramData\chocolatey\bin\musikcube.exe }
-alt + v                 : if ($wshell.AppActivate('Code') -eq $False) { start C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Visual Studio Code }
+alt + b                 : if ($wshell.AppActivate('Brave') -eq $False) { start brave }
+alt + s                 : if ($wshell.AppActivate('Spotify') -eq $False) { start "$env:USERPROFILE\scoop\apps\spotify\current\spotify.exe" }
+alt + m                 : if ($wshell.AppActivate('Musikcube') -eq $False) { start "$env:USERPROFILE\scoop\apps\musikcube\current\musikcube.exe" }
+alt + v                 : if ($wshell.AppActivate('Code') -eq $False) { start "$env:USERPROFILE\scoop\apps\vscode\current\Code.exe" }
+alt + g                 : if ($wshell.AppActivate('Galaxy') -eq $False) { start "$env:USERPROFILE\scoop\apps\goggalaxy\current\GalaxyClient.exe" }
 # alt + b                 : if ($wshell.AppActivate('Chrome') -eq $False) { start chrome }
 alt + return            : if ($wshell.AppActivate('Windows Terminal') -eq $False) { start "$env:USERPROFILE\AppData\Local\Microsoft\WindowsApps\wt.exe" }
 

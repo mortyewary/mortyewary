@@ -1,8 +1,5 @@
 # Bookmarks to important pages
 
-Chocolatey Package Manager:
-[Chocolatey Package Manager](https://chocolatey.org/)
-
 Komorebi:
 [Komorebi Tiling WM](https://lgug2z.github.io/komorebi/index.html)
 
