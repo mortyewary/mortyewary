@@ -47,7 +47,7 @@ python -m venv --help >/dev/null 2>&1 || echo "⚠️  Python venv seems broken!
 
 # --- Hyprland Keybinds ---
 echo ">>> Checking Hyprland keybinds..."
-KEYBINDS_FILE="$HOME/.config/hypr/hyprland.conf"
+KEYBINDS_FILE="$HOME/.config/hypr/config/keybinds.conf
 mkdir -p "$(dirname "$KEYBINDS_FILE")"
 
 if ! grep -q 'bind = $mainMod, Return, exec, alacritty' "$KEYBINDS_FILE" 2>/dev/null; then
@@ -63,8 +63,8 @@ echo ">>> Configuring Snapper..."
 sudo snapper -c root set-config TIMELINE_CREATE=yes
 sudo snapper -c root set-config TIMELINE_CLEANUP=yes
 sudo snapper -c root set-config TIMELINE_MIN_AGE=1800
-sudo snapper -c root set-config TIMELINE_LIMIT_HOURLY=3
-sudo snapper -c root set-config TIMELINE_LIMIT_DAILY=7
+sudo snapper -c root set-config TIMELINE_LIMIT_HOURLY=1
+sudo snapper -c root set-config TIMELINE_LIMIT_DAILY=3
 sudo snapper -c root set-config TIMELINE_LIMIT_WEEKLY=1
 
 # --- BTRFS Balance ---
@@ -82,5 +82,5 @@ echo ""
 echo "✅ Development environment setup complete!"
 echo "🔹 Please reboot for Docker group changes to take effect."
 echo "🔹 Snapper is installed via CachyOS Helper and already pre-configured."
-echo "   This script only adjusted retention (3 hourly, 7 daily, 1 weekly)."
+echo "   This script only adjusted retention (1 hourly, 3 daily, 1 weekly)."
 echo "   You can review and fine-tune settings in Btrfs Assistant."
